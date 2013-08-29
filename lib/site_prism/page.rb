@@ -55,6 +55,7 @@ module SitePrism
     end
 
     def element_exists? *find_args
+      puts "find_args: " + find_args.inspect
       has_selector? *find_args
     end
 
